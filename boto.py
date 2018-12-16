@@ -111,7 +111,6 @@ def joke():
 def movie():
     search = tmdb.Search()
     user_query = answer_data['user_answers'][-1].lower().split()
-    # user_query = "I want the movie the batman ?".lower().split()
     index_of_start = user_query.index("movie")
     answer_data['movie_title'] = " ".join(user_query[(index_of_start + 1):-1])
     response = search.movie(query=answer_data['movie_title'])
