@@ -8,3 +8,7 @@ be placed in a full sentence:
 - help: reveal the full list of keywords,
 - weather: fetch tomorrow's forecast and the day after (API),
 - jokes: display a random joke (API),
+- movies: display the plot of a movie,
+- Filter bad language,
+- a few more easter eggs.
+
